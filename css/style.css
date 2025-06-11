@@ -1,0 +1,205 @@
+body{
+	font-family: 'Viga', sans-serif !important;
+}
+
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 63px;
+}
+.intro .intro-body .intro-text {
+  font-size: 21px;
+}
+
+.main{
+	margin-top: 30px;
+}
+
+#newssquare{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.point{
+	cursor: pointer;
+}
+
+.btn-circle{
+	border-radius: 50%;
+	display: inline-block;
+  	cursor: pointer;
+  	margin:5px;
+}
+
+.readmoregroup{
+	padding-top: 50px;
+}
+
+
+
+#education{
+	background-color: #FFFFFF;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+#news{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FAFAFA;
+}
+
+#padspace{
+	padding-bottom: 20px;
+}
+
+.panel{
+  background-color: transparent !important;
+
+}
+
+.pnbd{
+  padding:0px !important;
+}
+
+
+@media (min-width: 1200px) {
+  #event{
+    margin-left:3px !important;
+  }
+  .difline{
+	background: url(https://www.codepolitan.com/assets/img/dot_line.png) center center repeat-y;
+	}
+
+
+}
+
+@media (min-width: 992px) {
+  #event{
+    margin-left:3px !important;
+  }
+  .difline{
+	background: url(https://www.codepolitan.com/assets/img/dot_line.png) center center repeat-y;
+}
+
+}
+
+@media (min-width: 768px) {
+  #read-journal{
+  	padding-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 768px){
+	.navbar-fixed-top{
+		position: static;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.main{
+		margin-top: 0;
+	}
+}
+#carousel-example-generic{
+	width: 100%;
+}
+
+#contentfooter{
+	padding-bottom: 30px;
+}
+
+#sosmedfooter{
+	padding:0;
+}
+
+#sosmedfooter > li{
+	list-style: none;
+}
+
+.btn-full{
+	width:100%;
+}
+
+#email_feedback{
+	width: 100%;
+}
+
+
+
+
+
+
+
+/*HOLLOW BUTTON*/
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+
+
+
+.btn-primary.outline {
+  border: 2px solid;
+  
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  background-color: #fff;
+}
+
+.header-btn{
+  width:200px;
+}
+
+
+
+
+.postnews{
+	margin:0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+.profiles{
+	padding-bottom: 20px;
+}
+
+.posting img{
+display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.sharegroup{
+	position: fixed;right: 0;top: 30%;list-style: none;
+}
+
+@media (max-width: 768px) {
+	.sharegroup{
+	display: none;
+	}
+}
