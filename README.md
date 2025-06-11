@@ -1,25 +1,25 @@
 # Infinity Web Application
 
-Infinity adalah aplikasi web berbasis PHP menggunakan framework CodeIgniter.
+Infinity is a web application built with PHP using the CodeIgniter framework.
 
-## Fitur
+## Features
 
-- Manajemen cache (mendukung APC, file, memcached, redis, dll)
-- Backup database (MySQL/Interbase/Firebird)
-- Pengiriman email (PHPMailer)
-- Ekspor/import Excel (PHPExcel)
-- Konfigurasi MIME types
-- Logging dan error handling
+- Cache management (supports APC, file, memcached, redis, etc.)
+- Database backup (MySQL/Interbase/Firebird)
+- Email sending (PHPMailer)
+- Excel export/import (PHPExcel)
+- MIME types configuration
+- Logging and error handling
 
-## Instalasi
+## Installation
 
-1. Clone repository ini
-2. Salin file `.env.example` ke `.env` (jika ada)
-3. Atur konfigurasi database di `application/config/database.php`
-4. Pastikan folder `application/cache/` dan `application/logs/` writable
-5. Jalankan aplikasi melalui web server yang mendukung PHP
+1. Clone this repository
+2. Copy the `.env.example` file to `.env` (if available)
+3. Configure the database in `application/config/database.php`
+4. Ensure the `application/cache/` and `application/logs/` folders are writable
+5. Run the application through a web server that supports PHP
 
 ---
-**Catatan:**  
-Database dummy tersedia pada file `infinity.sql`.  
-Seluruh data di dalamnya bersifat dummy dan tidak menggunakan username maupun password asli.
+**Note:**  
+A dummy database is available in the `infinity.sql` file.  
+All data inside is dummy and does not use real usernames or passwords.
