@@ -1,6 +1,6 @@
 # Infinity Web Application
 
-Infinity is a web application built with PHP using the CodeIgniter framework.
+Infinity is a web application built with PHP using the CodeIgniter framework, designed to assist with organizational or community management, such as event tracking, meetings, attendance, announcements, and member data management.
 
 ## Features
 
@@ -16,8 +16,8 @@ Infinity is a web application built with PHP using the CodeIgniter framework.
 1. Clone this repository
 2. Copy the `.env.example` file to `.env` (if available)
 3. Configure the database in `application/config/database.php`
-4. Ensure the `application/cache/` and `application/logs/` folders are writable
-5. Run the application through a web server that supports PHP
+4. Make sure the `application/cache/` and `application/logs/` folders are writable
+5. Run the application on a web server that supports PHP
 
 ---
 **Note:**  
